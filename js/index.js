@@ -1,18 +1,3 @@
-/* document.getElementById('player-contain').addEventListener('click',function(event)
-{
-     const a= event.target.innerText;
-     if(a==='Select')
-     {
-       const playerName= document.getElementById('')
-     }
-    //  console.log(typeof(a))
-}) */
-
-
-
-
-
-
 
 
  function addFriendList(playerName){
