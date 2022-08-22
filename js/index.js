@@ -122,9 +122,9 @@
    const managercost = parseInt(manager.value);
    const coach = document.getElementById('coach');
    const coachcoat = parseInt(coach.value);
-   const p= totalPlayersCost();
+   const playerTotalCost= totalPlayersCost();
   
-   const totalCost= managercost+coachcoat+ parseInt(p.innerText);
+   const totalCost= managercost+coachcoat+ parseInt(playerTotalCost.innerText);
 
    const total= document.getElementById('total');
    total.innerText= totalCost;
