@@ -27,28 +27,63 @@
         {
          list.appendChild(li);
         }
-    
-   
-    
+        else {
+         alert("Full");
+        }    
  }
 
    
  document.getElementById('mbappy').addEventListener('click',function()
  {
-
     const  player = document.getElementById('Kylian Mbappé');
     const playerName= player.innerText;
-    addFriendList(playerName);
-   
-    
-   
+    addFriendList(playerName);   
  })
  document.getElementById('Messi').addEventListener('click',function()
  {
-
-    const  player = document.getElementById('Lionel Messi');
+    const  player = document.getElementById('Lionel-Messi');
     const playerName= player.innerText;
-    addFriendList(playerName);
-    
-   
+    addFriendList(playerName);  
+ })
+ document.getElementById('Neymar').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Neymar-Jr');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
+ })
+ document.getElementById('Sergio').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Sergio-Ramos');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
+ })
+ document.getElementById('Vítor').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Vítor-Machado');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
+ })
+ document.getElementById('Renato').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Renato-Sanches');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
+ })
+ document.getElementById('Thibaut').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Thibaut-Courtois');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
+ })
+ document.getElementById('Karim').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Karim-Benzema');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
+ })
+ document.getElementById('Kaka1').addEventListener('click',function()
+ {
+    const  player = document.getElementById('Kaka');
+    const playerName= player.innerText;
+    addFriendList(playerName);  
  })
