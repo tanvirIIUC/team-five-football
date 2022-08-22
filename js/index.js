@@ -114,13 +114,34 @@
     
  })
 
-
- document.getElementById('total-player-cost').addEventListener('click',function()
+ function totalPlayersCost()
  {
    const perPlayer= document.getElementById('Per-Player');
    const perPlayerCost =parseInt(perPlayer.value) ;
-   //  console.log(perPlayerCost);
+   
     const playerCostTotal = document.getElementById('player-cost-total');
     playerCostTotal.innerText= perPlayerCost*5;
+    return playerCostTotal;
+ }
+
+
+ document.getElementById('total-player-cost').addEventListener('click',function()
+ {
+   totalPlayersCost();
  }
  )
+
+ document.getElementById('Calculate-Total').addEventListener('click',function()
+ {
+   const manager = document.getElementById('manager');
+   const managercost = parseInt(manager.value);
+   const coach = document.getElementById('coach');
+   const coachcoat = parseInt(coach.value);
+   const p= totalPlayersCost();
+  
+   const totalCost= managercost+coachcoat+ parseInt(p.innerText);
+
+   const total= document.getElementById('total');
+   total.innerText= totalCost;
+   
+ })
